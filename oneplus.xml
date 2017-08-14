@@ -6,4 +6,9 @@
 
   <!-- common -->
   <project name="mordiford/device_oppo_common" path="device/oppo/common" remote="github" revision="n7.1" />
+  
+  <project name="AICP/device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" remote="github" revision="n7.1" />
+  <project name="AndroPlus-org/kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="n7.1" />
+  
+  <project name="AICP/proprietary_vendor_oneplus" path="vendor/oneplus" remote="aicp" revision="n7.1" />
 </manifest>

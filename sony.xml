@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+  <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
+  <project path="device/sony/common" name="AICP-Sony/device-sony-common" remote="github" revision="n7.1" /><!--n-mr1-->
+  <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="n-mr1" />
+
+  <!--msm8998-->
+  <project path="device/sony/yoshino" name="AICP-Sony/device-sony-yoshino" remote="github" revision="n7.1" /><!--n-mr1-->
+  <project path="device/sony/maple" name="AICP-Sony/device-sony-maple" remote="github" revision="n7.1" /><!--n-mr1-->
+  
+  <!--LA.UM.5.7.r1-->
+  <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="hardware/sony/camera" name="AICP-Sony/android_hardware_sony_camera" remote="github" revision="n7.1" /><!--n-mr1-->
+  <project path="kernel/sony/msm" name="AICP-Sony/android_kernel_sony_msm" remote="github" revision="aosp/LA.UM.5.7.r1" /><!--aosp/LA.UM.5.7.r1-->
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+  <project path="kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
+
+  <!--patch-->
+  <remove-project name="LineageOS/android_external_libnfc-nci" />
+  <remove-project name="LineageOS/android_hardware_qcom_bt" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <!--<remove-project name="AICP/frameworks_av" />
+  <remove-project name="LineageOS/AICP/frameworks_base" />-->
+  <project path="external/libnfc-nci" name="AICP-Sony/android_external_libnfc-nci" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/bt" name="AICP-Sony/android_hardware_qcom_bt" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/display" name="AICP-Sony/android_hardware_qcom_display" remote="github" revision="n7.1" />
+  <project path="hardware/qcom/media" name="AICP-Sony/android_hardware_qcom_media" remote="github" revision="n7.1" />
+  <!--<project path="frameworks/av" name="AICP-Sony/android_frameworks_av" remote="github" revision="n7.1" />
+  <project path="frameworks/base" name="AICP-Sony/android_frameworks_base" remote="github" revision="n7.1" />-->
+
+  <!--oss-->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+  <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+  <remove-project name="LineageOS/android_external_json-c" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/fm" name="vendor-qcom-opensource-fm" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="m-mr1" />
+  <project path="hardware/sony/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />-->
+  <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="master" />
+  <project path="packages/apps/FMRadio" name="packages-apps-FMRadio" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/json-c" name="json-c" groups="device" remote="sony" revision="master" />
+
+  <!--nxp-->
+  <project path="vendor/nxp" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCProject/NXPNFCC_FW" groups="device" remote="github" revision="master" />
+</manifest>

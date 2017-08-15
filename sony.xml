@@ -12,7 +12,7 @@
   <!--LA.UM.5.7.r1-->
   <project path="device/sony/common-headers" name="device-sony-common-headers" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="device/sony/common-kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
-  <project path="hardware/sony/camera" name="AICP-Sony/android_hardware_sony_camera" remote="github" revision="n7.1" /><!--n-mr1-->
+  <project path="hardware/sony/camera" name="AICP-Sony/android_hardware_sony_camera" remote="github" revision="n7.1" /><!--aosp/LA.UM.5.7.r1-->
   <project path="kernel/sony/msm" name="AICP-Sony/android_kernel_sony_msm" remote="github" revision="aosp/LA.UM.5.7.r1" /><!--aosp/LA.UM.5.7.r1-->
   <project path="kernel/sony/msm/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
   <project path="kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.5.7.r1" />
@@ -23,14 +23,10 @@
   <remove-project name="LineageOS/android_hardware_qcom_bt" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <!--<remove-project name="AICP/frameworks_av" />
-  <remove-project name="LineageOS/AICP/frameworks_base" />-->
   <project path="external/libnfc-nci" name="AICP-Sony/android_external_libnfc-nci" remote="github" revision="n7.1" />
   <project path="hardware/qcom/bt" name="AICP-Sony/android_hardware_qcom_bt" remote="github" revision="n7.1" />
   <project path="hardware/qcom/display" name="AICP-Sony/android_hardware_qcom_display" remote="github" revision="n7.1" />
   <project path="hardware/qcom/media" name="AICP-Sony/android_hardware_qcom_media" remote="github" revision="n7.1" />
-  <!--<project path="frameworks/av" name="AICP-Sony/android_frameworks_av" remote="github" revision="n7.1" />
-  <project path="frameworks/base" name="AICP-Sony/android_frameworks_base" remote="github" revision="n7.1" />-->
 
   <!--oss-->
   <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- mordiford-ify patch -->
-  <remove-project name="AICP/build"/>
-  <project path="build" name="AndroPlus-org/build" revision="n7.1" />
-
   <remove-project name="AICP/vendor_aicp"/>
   <project path="vendor/aicp" name="mordiford/vendor_aicp" revision="n7.1" />
 
